@@ -15,7 +15,7 @@ BK_Sudoku::Puzzle puzzle(3, 37);
 puzzle.initialize();
 std::cout << puzzle;
 ```
-The constructor of the `Puzzle` class takes two arguments: the order of the puzzle and the number of given digits. The order is the size of the inner regions. That is, a puzzle with the order of `3` has 3x3 inner regions and therefore the total grid size of 9x9. The library generates puzzles that have unique solutions. For 9x9 puzzles, the algorithm remains sufficiently performant down to about 23 given digits. 
+The constructor of the `Puzzle` class takes two arguments: the order of the puzzle and the number of given digits. The order is the size of the inner regions. That is, a puzzle with the order of `3` has 3x3 inner regions and therefore the total grid size of 9x9. The library generates puzzles that have a unique solution. For 9x9 puzzles, the algorithm remains sufficiently performant down to about 23 given digits. 
 
 The sample output is:
 ```
